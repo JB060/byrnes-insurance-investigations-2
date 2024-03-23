@@ -95,6 +95,21 @@ main {
     margin-top: 47px;
 }
 
+#hero-image {
+    display: block;
+    margin: 0 auto; /* This centers the image horizontally */
+    margin-top: 20px;
+  }
+
+  #text {
+
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 8%;
+
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
