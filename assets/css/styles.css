@@ -43,6 +43,11 @@ h1 {
     color: #252525;
 }
 
+h3 {
+    text-align: center;
+    text-shadow: #3a3a3a;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -87,7 +92,7 @@ main {
     background-color: rgb(247, 248, 248);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 69px;
+    margin-top: 47px;
 }
 
 /* Footer */
@@ -119,5 +124,25 @@ footer {
     .nav-toggle-label{
 
         display: none;
+    }
+
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 100px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #ff0000;
+    }
+    #menu a.clicked {
+        color: rgb(0, 26, 255);
     }
 }
