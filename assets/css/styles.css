@@ -94,3 +94,30 @@ main {
 footer {
     background-color: orange;
 }
+
+/* media querie: for tablets larger than 768px upwards */
+
+@media screen and (min-width : 786px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem ;
+    }
+    #menu {
+       display:flex;
+    }
+
+    #menu > li {
+
+        padding-left: 1rem;
+
+    }
+
+    .nav-toggle-label{
+
+        display: none;
+    }
+}
