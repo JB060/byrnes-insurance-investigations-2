@@ -84,10 +84,10 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgb(247, 248, 248);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 69px;
 }
 
 /* Footer */
