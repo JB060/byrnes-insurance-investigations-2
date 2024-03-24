@@ -96,6 +96,7 @@ main {
 }
 
 #hero-image {
+    width: 75%;
     display: block;
     margin: 0 auto; /* This centers the image horizontally */
     margin-top: 20px;
@@ -260,7 +261,17 @@ e-form {
 
     main {
         margin-top: 100px;
+  }
+
+  @media all and (max-width:480px) {
+    #hero-image {
+
+        width: 100%;
     }
+  }
+
+
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
