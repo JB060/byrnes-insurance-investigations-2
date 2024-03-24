@@ -96,10 +96,10 @@ main {
 }
 
 #hero-image {
-    width: 50%;
+    width: 45%;
     display: block;
     margin: 0 auto; /* This centers the image horizontally */
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   html {
