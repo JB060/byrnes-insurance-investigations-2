@@ -97,7 +97,7 @@ main {
 
 #hero-image {
     width: 45%;
-    display: block;
+    display: flex;
     margin: 0 auto; /* This centers the image horizontally */
     margin-top: 30px;
   }
@@ -248,6 +248,10 @@ e-form {
 
     }
 
+    #f-info{
+        text-align: center;
+    }
+
     .nav-toggle-label{
 
         display: none;
@@ -275,7 +279,7 @@ e-form {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 820px) {
     #menu a:hover {
         border-bottom: 1px solid #ff0000;
     }
