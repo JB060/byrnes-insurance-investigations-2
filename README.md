@@ -1,39 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Byrne Accident Investigations Website
+This is a sample website template for Byrne Accident Investigations, a fictional company specializing in accident investigations for insurance claims. The template includes HTML markup and CSS styling.
 
-Welcome,
+Table of Contents
+Overview
+Features
+How to Use
+Folder Structure
+Credits
+License
+Overview
+The website template consists of HTML files for content structure and CSS files for styling. It's designed to showcase information about the company's services and provide a means for users to contact them.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
+Responsive design for various screen sizes.
+Flexbox layout for header, main content, and footer.
+Smooth scrolling effect for internal navigation links.
+Form for user inquiries and contacting the company.
+Integration of Font Awesome icons for social media links.
+Usage of Google Fonts for typography.
+How to Use
+Clone the repository to your local machine.
+Open the HTML files in a web browser to view the website.
+Modify the HTML content to fit your own company information.
+Customize the CSS styles to match your brand's visual identity.
+Ensure that the form submission action (action_page.php) is configured correctly to handle inquiries.
+Folder Structure
+bash
+Copy code
+Byrne-Accident-Investigations/
+│
+├── assets/
+│   ├── css/
+│   │   └── styles.css       # CSS stylesheets
+│   ├── images/              # Images used in the website
+│   └── js/                  # JavaScript files (if any)
+│
+├── index.html               # Main HTML file
+├── action_page.php          # Form submission handling (backend)
+│
+└── README.md                # Project documentation
+Credits
+Font Awesome for social media icons.
+Google Fonts for typography.
+Placeholder images sourced from Unsplash.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+You can customize this README with additional information or adjust the folder structure section according to your actual project setup.
