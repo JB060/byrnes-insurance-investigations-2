@@ -96,7 +96,7 @@ main {
 }
 
 #hero-image {
-    width: 75%;
+    width: 50%;
     display: block;
     margin: 0 auto; /* This centers the image horizontally */
     margin-top: 20px;
@@ -266,7 +266,7 @@ e-form {
   @media all and (max-width:480px) {
     #hero-image {
 
-        width: 100%;
+        width: 50%;
     }
   }
 
