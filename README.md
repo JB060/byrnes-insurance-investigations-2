@@ -46,4 +46,3 @@ Placeholder images sourced from Unsplash.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-You can customize this README with additional information or adjust the folder structure section according to your actual project setup.
