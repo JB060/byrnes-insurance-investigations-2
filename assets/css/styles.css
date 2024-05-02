@@ -139,6 +139,7 @@ main {
     border-radius: 10px;
     margin-left: 20% ;
     margin-bottom: 50px;
+    border-radius: 2px solid;
 }
 
 #stastistic_heading {

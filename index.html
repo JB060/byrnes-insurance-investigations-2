@@ -165,59 +165,39 @@
 
                 <span id="eform">
 
-                    <form action="action_page.php" method="GET">
-
-
-
+                    <form action="mailto:jasonbyrne060@gmail.com" method="POST" enctype="text/plain">
 
                         <label>Mr.</label>
-                        <input type="radio" name="title">
-
+                        <input type="radio" name="title" value="Mr.">
+                    
                         <label>Mrs.</label>
-                        <input type="radio" name="title">
-
+                        <input type="radio" name="title" value="Mrs.">
+                    
                         <label>Other</label>
-                        <input type="radio" name="title">
-
-
-
-
-                        <p><label id="f-name"> Name: </label>
-                            <input type="text" id="fname" name="firstname" placeholder=" Name" maxlength="30">
-                        </p>
-
-
-
-
-                        <p><label id="s-name"> Surname: </label>
-                            <input type="text" id="Sname" name="Surname" placeholder=" Surname" maxlength="30">
-                        </p>
-
-
-
-
+                        <input type="radio" name="title" value="Other">
+                    
                         <p>
-                            <label id="e-mail"> E-mail</label>
-                            <input type="text" id=" Email address" name=" email address" placeholder="jsmith@gmail.com"
-                                minlength="0" maxlength="200">
-
-                            <!--add mailto link-->
-                            <a href="mailto:jasonbyrne060@gmail.com"></a>
+                            <label id="f-name">Name:</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Name" maxlength="30">
                         </p>
-
-
-                        <input id="reset" type="reset">
-
-
-
-                        <input id="submit" type="submit">
-
-                </span>
-
-
-
-
-                </form>
+                    
+                        <p>
+                            <label id="s-name">Surname:</label>
+                            <input type="text" id="Sname" name="surname" placeholder="Surname" maxlength="30">
+                        </p>
+                    
+                        <p>
+                            <label id="e-mail">E-mail:</label>
+                            <input type="text" id="email" name="email" placeholder="jsmith@gmail.com" maxlength="200">
+                        </p>
+                    
+                        <!-- Add recipient email and subject as hidden fields -->
+                        <input type="hidden" name="recipient" value="jasonbyrne060@gmail.com">
+                        <input type="hidden" name="subject" value="Form Submission">
+                    
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
+                    
 
             </section>
 
