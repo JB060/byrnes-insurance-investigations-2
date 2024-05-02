@@ -171,7 +171,7 @@ form p {
 
 form label {
     display: inline-block;
-    width: 60px;
+    width: 3%;
     /* Adjust width as needed */
 }
 
@@ -183,7 +183,7 @@ form input[type="radio"] {
 form input[type="text"] 
 {
 
-    background-color: rgb(241, 175, 187);
+    background-color: rgb(241, 200, 208);
     width: auto;
     padding: 10px;
     font-family: monospace;
@@ -195,20 +195,21 @@ form input[type="text"]
 #f-name {
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 3%;
+    margin-top: 1%;
 
 }
 
 #s-name {
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 3;
+    margin-top: 1%;
 }
 
 #e-mail {
 
     margin-right: 2%;
     margin-left: 2%;
+    margin-top: 1%;
 }
 
 #reset{
