@@ -67,11 +67,10 @@ nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
-    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
+    
 }
 
 /* Nav toggle */
@@ -96,12 +95,14 @@ main {
 }
 
 #hero-image {
-    width: 45%;
+    width: 40%;
     display: flex;
     margin: 0 auto; /* This centers the image horizontally */
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+ 
 
   html {
     scroll-behavior: smooth;
@@ -403,3 +404,10 @@ form {
         color: rgb(0, 26, 255);
     }
 }
+#booking_img {
+    width: 40%;
+    display: flex;
+    margin: 0 auto; /* This centers the image horizontally */
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
