@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <!--stylesheet-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--meta tags for SEO -->
+  <meta name="description"
+    content="byrne investigations, site for motor and public liability claims in dublin, ireland" />
+
+  <meta name="keywords"
+    content="public liability insurance claims, motor insurance claims, accidental claims, trip and falls , insurance assessors" />
+
+  <!--Title-->
+  <title>Booking - Byrne Accident Investigations</title>
+
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!--stylesheet-->
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
+
 <body>
+  <!-- Header -->
   <header>
     <a href="index.html">
-      <h1 id="logo">Byrne Insurance Investagations</h1>
+      <h1 id="logo">Byrne Insurance Investigations</h1>
     </a>
 
     <input type="checkbox" id="nav-toggle" name="nav-toggle" />
@@ -18,15 +36,21 @@
 
     <nav>
       <ul id="menu">
-        <li><a href="" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#bottom">Contact</a></li>
-        <li><a href="booking.html">booking</a></li>
+        <li><a href="booking.html" class="active">Booking</a></li>
       </ul>
     </nav>
   </header>
 
-    <img id=" booking_img" src = "assets/images/fenderbender.jpeg"
-    <a href="booking.html"></a>
+  <!-- Main content -->
+  <main>
+    <!-- Booking Image -->
+    <img id="booking_img" src="assets/images/fenderbender.jpeg" alt="Car accident fender bender" />
+
+    <!-- Booking Form -->
+    <section id="bottom">
+      <h1 id="contact-us">Contact Us</h1>
 
       <!--Form-->
       <form id="form" action="https://formdump.codeinstitute.net" method="POST">
@@ -51,8 +75,8 @@
           <input type="email" id="email" name="email" placeholder="jsmith@gmail.com" maxlength="200" required />
         </div>
         <div class="form-group">
-          <label for="message"> message:</label>
-          <textarea name="message"></textarea>
+          <label for="message"> Message:</label>
+          <textarea name="message" placeholder="Your message here..." maxlength="1000"></textarea>
         </div>
         <!-- Add recipient email and subject as hidden fields -->
         <input type="hidden" name="recipient" value="jasonbyrne060@gmail.com" />
@@ -60,49 +84,48 @@
         <input type="submit" id="submit" value="Submit" />
       </form>
     </section>
+  </main>
 
-</main>
+  <!-- Footer -->
+  <footer>
+    <div id="f-info">
+      Author: Jason Byrne &copy; copyright reserved
+      <a href="mailto:info@byrneinvestigations.ie">info@byrneinvestigations.ie</a>
+    </div>
+    <!--social network icons-->
+    <ul id="social-networks">
+      <li>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </li>
 
-<!-- Footer -->
-<footer>
-  <div id="f-info">
-    Author: Jason Byrne &copy; copyright rese <span id="eform"></span>rved
-    <a href="mailto:info@byrneinvestigations.ie">info@byrneinvestigations.ie</a>
-  </div>
-  <!--social network icons-->
-  <ul id="social-networks">
-    <li>
-      <a href="https://www.facebook.com" target="_blank" rel="noopener"
-        aria-label="vistit our facebook page (opens in a new tab)">
-        <i class="fa-brands fa-facebook-f"></i>
-      </a>
-    </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+          aria-label="visit our Instagram page (opens in a new tab)">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
 
-    <li>
-      <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-        aria-label="vistit our instagram page (opens in a new tab)">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-    </li>
+      <li>
+        <a href="https://www.x.com" target="_blank" rel="noopener" aria-label="visit our X page (opens in a new tab)">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </li>
 
-    <li>
-      <a href="https://www.x.com" target="_blank" rel="noopener" aria-label="vistit our X page (opens in a new tab)">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://www.tiktok.com" target="_blank" rel="noopener"
-        aria-label="vistit our tiktok page (opens in a new tab)">
-        <i class="fa-brands fa-tiktok"></i>
-      </a>
-    </li>
-  </ul>
-</footer>
-<!--Font Awesome kit-->
-<script src="https://kit.fontawesome.com/eb8e6c55dd.js" crossorigin="anonymous"></script>
+      <li>
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener"
+          aria-label="visit our TikTok page (opens in a new tab)">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!--Font Awesome kit-->
+  <script src="https://kit.fontawesome.com/eb8e6c55dd.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
-</body>
-</html>
+
+
