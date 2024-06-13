@@ -128,16 +128,15 @@
       <section id="bottom">
         <h1 id="contact-us">Contact Us</h1>
 
-
         <!--Form-->
         <form id="form" action="https://formdump.codeinstitute.net" method="POST">
           <div class="form-group">
-            <label>Mr.</label>
-            <input type="radio" name="title" value="Mr." />
-            <label>Mrs.</label>
-            <input type="radio" name="title" value="Mrs." />
-            <label>Other</label>
-            <input type="radio" name="title" value="Other" />
+            <label for="title">Title:</label>
+            <select id="title" name="title">
+              <option value="Mr.">Mr.</option>
+              <option value="Mrs.">Mrs.</option>
+              <option value="Other">Other</option>
+            </select>
           </div>
           <div class="form-group">
             <label for="fname"> Name:</label>
