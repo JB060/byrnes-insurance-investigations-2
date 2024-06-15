@@ -22,6 +22,19 @@
 
   <!--stylesheet-->
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    /* Add styles for centering the heading and horizontal line */
+    .centered-heading {
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    .centered-heading hr {
+      width: 50%;
+      margin: 0 auto;
+      border: 1px solid #ccc; /* Adjust color as needed */
+    }
+  </style>
 </head>
 
 <body>
@@ -37,51 +50,48 @@
     <nav>
       <ul id="menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#bottom">Contact</a></li>
         <li><a href="booking.html" class="active">Booking</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Main content -->
   <main>
-    <!-- Booking Image -->
+    <!-- Image -->
     <img id="booking_img" src="assets/images/fenderbender.jpeg" alt="Car accident fender bender" />
 
-    <!-- Booking Form -->
-    <section id="bottom">
-      <h1 id="contact-us">Contact Us</h1>
+    <!-- Booking section -->
+    <section id="booking-section">
+      <div class="centered-heading">
+        <h1 id="booking-heading">Book an Investigation</h1>
+        <hr>
+      </div>
 
-      <!--Form-->
-      <form id="form" action="https://formdump.codeinstitute.net" method="POST">
-        <div class="form-group">
-          <label for="title">Title:</label>
-          <select id="title" name="title">
-            <option value="Mr.">Mr.</option>
-            <option value="Mrs.">Mrs.</option>
-            <option value="Other">Other</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="fname"> Name:</label>
-          <input type="text" id="fname" name="firstname" placeholder="Name" maxlength="30" required />
-        </div>
-        <div class="form-group">
-          <label for="sname"> Surname:</label>
-          <input type="text" id="sname" name="surname" placeholder="Surname" maxlength="30" required />
-        </div>
-        <div class="form-group">
-          <label for="email"> Email:</label>
-          <input type="email" id="email" name="email" placeholder="jsmith@gmail.com" maxlength="200" required />
-        </div>
-        <div class="form-group">
-          <label for="message"> Message:</label>
-          <textarea name="message" placeholder="Your message here..." maxlength="1000"></textarea>
-        </div>
-        <!-- Add recipient email and subject as hidden fields -->
-        <input type="hidden" name="recipient" value="jasonbyrne060@gmail.com" />
-        <input type="hidden" name="subject" value="Form Submission" />
-        <input type="submit" id="submit" value="Submit" />
+      <form action="https://formdump.codeinstitute.net" method="post" id="booking-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="type">Type of Investigation:</label>
+        <select id="type" name="type" required>
+          <option value="motor">Motor</option>
+          <option value="public">Public Liability</option>
+          <option value="employer">Employer's Liability</option>
+        </select>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="details">Additional Details:</label>
+        <textarea id="details" name="details"></textarea>
+
+        <button type="submit">Submit Booking</button>
       </form>
     </section>
   </main>
@@ -127,5 +137,3 @@
 </body>
 
 </html>
-
-

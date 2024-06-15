@@ -410,3 +410,37 @@ form {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  /* Testimonials */
+#testimonials {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #testimonials h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  #testimonials .testimonial {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1.5em 0;
+    padding: 1em;
+    text-align: left;
+  }
+  
+  #testimonials .testimonial p {
+    margin: 0.5em 0;
+  }
+  
+  #testimonials .testimonial strong {
+    display: block;
+    margin-top: 1em;
+    text-align: right;
+    color: #555;
+  }
+  
