@@ -2,7 +2,8 @@
 <img src = "assets/images/byrneinsuranceresponsive.png">
 
 <strong>to view the live site:</strong> https://jb060.github.io/byrnes-insurance-investigations-2/
-Welcome to the Byrne Insurance Investigations website repository. This project includes three main web pages: Home, Booking, and Testimonials. The website serves as a platform for clients to learn about our services, book investigations, and read testimonials.
+
+<p>Welcome to the Byrne Insurance Investigations website repository. This project includes three main web pages: Home, Booking, and Testimonials. The website serves as a platform for clients to learn about our services, book investigations, and read testimonials.</p>
 
 ## Table of Contents
 
