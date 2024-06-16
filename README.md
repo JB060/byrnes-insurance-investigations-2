@@ -85,7 +85,7 @@ The testimonials page showcases feedback from our clients, demonstrating the val
 - `<main>`: Testimonials section.
 - `<footer>`: Contact information and social media links.
 
-### Directory structure:**
+### **Directory structure:**
 byrne-investigations/
 ├── assets/
 │   ├── CSS/
