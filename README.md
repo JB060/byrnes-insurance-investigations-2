@@ -3,13 +3,40 @@
 Welcome to the Byrne Insurance Investigations website repository. This project includes three main web pages: Home, Booking, and Testimonials. The website serves as a platform for clients to learn about our services, book investigations, and read testimonials.
 
 ## Table of Contents
+# Byrne Insurance Investigations Website
 
-- [Project Overview](#project-overview)
-- [Pages and Features](#pages-and-features)
-- [Getting Started](#getting-started)
-- [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
-- [License](#license)
+Welcome to the Byrne Insurance Investigations website repository. This project includes three main web pages: Home, Booking, and Testimonials. The website serves as a platform for clients to learn about our services, book investigations, and read testimonials.
+
+## Table of Contents
+
+- [Byrne Insurance Investigations Website](#byrne-insurance-investigations-website)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Pages and Features](#pages-and-features)
+    - [1. Home Page (`index.html`)](#1-home-page-indexhtml)
+      - [Description](#description)
+      - [Key Features](#key-features)
+      - [HTML Structure](#html-structure)
+    - [2. Booking Page (`booking.html`)](#2-booking-page-bookinghtml)
+      - [Description](#description-1)
+      - [Key Features](#key-features-1)
+      - [HTML Structure](#html-structure-1)
+    - [3. Testimonials Page (`testimonials.html`)](#3-testimonials-page-testimonialshtml)
+      - [Description](#description-2)
+      - [Key Features](#key-features-2)
+      - [HTML Structure](#html-structure-2)
+  - [Directory Structure](#directory-structure)
+  - [Contributing](#contributing)
+  - [Bugs Squashed](#bugs-squashed)
+    - [Index Page (`index.html`) Bugs](#index-page-indexhtml-bugs)
+    - [Booking Page (`booking.html`) Bugs](#booking-page-bookinghtml-bugs)
+    - [Testimonials Page (`testimonials.html`) Bugs](#testimonials-page-testimonialshtml-bugs)
+    - [Additional Minor Bugs](#additional-minor-bugs)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Technologies Used](#technologies-used)
+
 
 ## Project Overview
 
