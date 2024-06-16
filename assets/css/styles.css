@@ -116,7 +116,7 @@ main {
     border-radius: 10px;
     margin-left: 20% ;
     margin-bottom: 50px;
-    border-radius: 2px solid;
+    border-radius: 2px ;
     box-shadow: 2px 2px 5px black;
 
 }
@@ -146,14 +146,14 @@ main {
     border-radius: 10px;
     margin-left: 20% ;
     margin-bottom: 50px;
-    border-radius: 2px solid;
+    border-radius: solid 2px ;
     box-shadow: 2px 2px 5px black;
 }
 
 #stastistic_heading {
 
     font-weight: 200;
-    font-style: bold;
+    font-style: italic;
     text-align: center;
     margin-bottom: 30px;
     text-decoration: underline;
@@ -169,7 +169,7 @@ form {
 
 /* Style radio buttons to display inline */
 form p {
-    margin-top margin: bottom 10px; ;
+    margin-top: bottom 10px; 
 }
 
 form label {
@@ -225,7 +225,7 @@ form input[type="text"]
 
 #submit{
     margin-right: 2%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 20px;
 }
 
