@@ -63,7 +63,7 @@ The testimonials page showcases feedback from our clients, demonstrating the val
 ### Directory structure:**
 byrne-investigations/
 ├── assets/
-│   ├── css/
+│   ├── CSS/
 │   │   └── styles.css      # Custom CSS styles
 │   └── images/
 │       └── fenderbender.jpeg  # Image used in the booking page
@@ -71,6 +71,17 @@ byrne-investigations/
 ├── booking.html              # Booking page
 ├── testimonials.html         # Testimonials page
 └── README.md                 # Project README
+
+## contributing 
+We welcome contributions to improve the website. Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add some feature').
+5. Push to the branch (git push origin feature-branch).
+6. Open a Pull Request.
+
 
 
 ## Getting Started
