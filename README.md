@@ -1,48 +1,78 @@
-Byrne Accident Investigations Website
-This is a sample website template for Byrne Accident Investigations, a fictional company specializing in accident investigations for insurance claims. The template includes HTML markup and CSS styling.
+# Byrne Insurance Investigations Website
 
-Table of Contents
-Overview
-Features
-How to Use
-Folder Structure
-Credits
-License
-Overview
-The website template consists of HTML files for content structure and CSS files for styling. It's designed to showcase information about the company's services and provide a means for users to contact them.
+Welcome to the Byrne Insurance Investigations website repository. This project includes three main web pages: Home, Booking, and Testimonials. The website serves as a platform for clients to learn about our services, book investigations, and read testimonials.
 
-Features
-Responsive design for various screen sizes.
-Flexbox layout for header, main content, and footer.
-Smooth scrolling effect for internal navigation links.
-Form for user inquiries and contacting the company.
-Integration of Font Awesome icons for social media links.
-Usage of Google Fonts for typography.
-How to Use
-Clone the repository to your local machine.
-Open the HTML files in a web browser to view the website.
-Modify the HTML content to fit your own company information.
-Customize the CSS styles to match your brand's visual identity.
-Ensure that the form submission action (action_page.php) is configured correctly to handle inquiries.
-Folder Structure
-bash
-Copy code
-Byrne-Accident-Investigations/
-│
-├── assets/
-│   ├── css/
-│   │   └── styles.css       # CSS stylesheets
-│   ├── images/              # Images used in the website
-│   └── js/                  # JavaScript files (if any)
-│
-├── index.html               # Main HTML file
-├── action_page.php          # Form submission handling (backend)
-│
-└── README.md                # Project documentation
-Credits
-Font Awesome for social media icons.
-Google Fonts for typography.
-Placeholder images sourced from Unsplash.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Pages and Features](#pages-and-features)
+- [Getting Started](#getting-started)
+- [Directory Structure](#directory-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+The Byrne Insurance Investigations website provides information on our insurance investigation services. The website is designed to be responsive, user-friendly, and informative, featuring essential sections and forms to facilitate client interactions.
+
+## Pages and Features
+
+### 1. Home Page (`index.html`)
+
+**Description:**
+The home page introduces Byrne Insurance Investigations, highlighting our expertise in motor, public, and employer's liability claims.
+
+**Key Features:**
+- Welcome message with a brief description of our services.
+- Centralized heading with a horizontal line for visual separation.
+
+**HTML Structure:**
+- `<header>`: Logo and navigation menu.
+- `<main>`: Introduction section with text content.
+- `<footer>`: Contact information and social media links.
+
+### 2. Booking Page (`booking.html`)
+
+**Description:**
+The booking page allows clients to schedule an investigation by filling out a form with their details and preferences.
+
+**Key Features:**
+- Centralized heading with a horizontal line for visual separation.
+- Form for booking an investigation, including fields for name, email, phone, investigation type, preferred date, and additional details.
+- Form submission via POST method to a designated URL.
+
+**HTML Structure:**
+- `<header>`: Logo and navigation menu.
+- `<main>`: Booking form.
+- `<footer>`: Contact information and social media links.
+
+### 3. Testimonials Page (`testimonials.html`)
+
+**Description:**
+The testimonials page showcases feedback from our clients, demonstrating the value and effectiveness of our services.
+
+**Key Features:**
+- Centralized heading with a horizontal line for visual separation.
+- Client testimonials displayed with names and feedback messages.
+
+**HTML Structure:**
+- `<header>`: Logo and navigation menu.
+- `<main>`: Testimonials section.
+- `<footer>`: Contact information and social media links.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following:
+- A web browser (e.g., Chrome, Firefox, Edge).
+- Basic understanding of HTML and CSS.
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/byrne-investigations.git
+
 
