@@ -177,4 +177,74 @@ Ensure you have the following:
    ```bash
    git clone https://github.com/yourusername/byrne-investigations.git
 
+### Technologies Used in the project
+   
+## HTML
+-Used to structure the content of the website.
+-Elements like headings, paragraphs, forms, images, and links were created using HTML.
+
+## CSS
+-Applied for styling the website, including layout, colors, fonts, and responsive design.
+-Flexbox and CSS Grid were used to create responsive and flexible layouts.
+-Media queries were employed for responsive adjustments across different screen sizes.
+JavaScript
+-Integrated for interactive features such as the responsive navigation menu.
+-Utilized for form validation and dynamic updates (if any future enhancements were to be added).
+
+## FormDump (Form Handling)
+-Form Submission Service: Utilized https://formdump.codeinstitute.net to handle form submissions for the booking form.
+
+## Font Awesome
+-Included for the social media icons and navigation toggle icon.
+-Used the Font Awesome kit (https://kit.fontawesome.com/eb8e6c55dd.js) to integrate the icons.
+
+## Google Fonts
+-Used for the website typography to ensure consistent and aesthetically pleasing text.
+
+## Modern Browser APIs
+-HTML5 and CSS3 standards were used to leverage modern browser capabilities like HTML5 input types, CSS transitions, and flexbox layouts.
+
+## Favicon Generator
+-Favicons for the website were created using a favicon generator to provide support for various devices and browsers.
+-Integrated different sizes and formats for comprehensive support.
+
+## VS Code (Code Editor)
+-Utilized for coding and managing the project files with various extensions for syntax highlighting, code formatting, and live preview.
+
+## Git & GitHub
+-Version control system used to track changes in the codebase and collaborate on code.
+-GitHub for hosting the project repository and version management.
+
+## Web Browser Developer Tools
+-Used for debugging and testing the website across different browsers and devices.
+-Tools like Chrome DevTools for inspecting elements, adjusting CSS, and testing responsive layouts.
+
+## Accessibility and SEO Tools
+-Ensured accessibility by including alt attributes for images and using semantic HTML elements.
+-Meta tags for SEO to improve search engine visibility and content description.
+
+## W3C Validation Tools
+-Used HTML and CSS validators to check the code for compliance with web standards and to ensure there were no syntax errors.
+-Breakdown by Page:
+-index.html:
+
+HTML for structure.
+CSS for styling and layout.
+JavaScript for interactive navigation.
+Font Awesome for social media icons.
+Favicon Generator for icons.
+booking.html:
+
+HTML for form structure.
+CSS for form styling and layout.
+JavaScript for form validation.
+FormDump for handling form submissions.
+Font Awesome for icons.
+testimonials.html:
+
+HTML for testimonials structure.
+CSS for layout and styling.
+JavaScript for any potential future interactive elements.
+Font Awesome for icons.
+These technologies together helped build a responsive, accessible, and user-friendly website for Byrne Insurance Investigations.
 
