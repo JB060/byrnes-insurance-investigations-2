@@ -269,3 +269,29 @@ JavaScript for any potential future interactive elements.
 Font Awesome for icons.
 These technologies together helped build a responsive, accessible, and user-friendly website for Byrne Insurance Investigations.
 
+### Credits
+This project was made possible through the contributions and support of various individuals and resources:
+
+- Marcel (Mentor)
+
+  - For providing invaluable guidance, feedback, and support throughout the development process.
+    
+- Font Awesome
+  - For providing icons used across the site.
+    
+- Google Fonts
+  - For the typography used in the project.
+    
+- Code Institute
+  - For the form submission service (FormDump).
+ 
+- Unsplash/Pexels
+  - For any images used in the project.
+    
+- W3C
+  - For HTML and CSS validation tools.
+
+     
+- Community Contributors
+  - For any feedback and contributions to the project.
+
