@@ -350,13 +350,13 @@ Together, these technologies helped build a responsive, accessible, and user-fri
 # Finished Site Screenshots
 Add screenshots of the finished site below to visually showcase the final look of each page.
 
-## Home Page:
+# Home Page:
 <img src = assets/images/index.html.png>
  
-## Booking Page:
+# Booking Page:
 <img src = assets/images/bookings.png >
 
-## Testimonials Page:
+# Testimonials Page:
 <img src = assets/images/testimonials.png>
 
 # Credits
