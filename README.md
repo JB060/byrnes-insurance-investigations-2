@@ -326,6 +326,15 @@ Testing is critical to ensure the website functions correctly across different s
  - Screen Readers: To test accessibility.
  - Validator Tools: To ensure HTML and CSS comply with standards (e.g., W3C Validator).
 
+### Finished Site Screenshots
+Add screenshots of the finished site below to visually showcase the final look of each page.
+
+Home Page:
+
+Booking Page:
+
+Testimonials Page:
+
 
 HTML for structure.
 CSS for styling and layout.
