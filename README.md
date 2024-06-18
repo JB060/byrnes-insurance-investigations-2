@@ -86,16 +86,7 @@ The testimonials page showcases feedback from our clients, demonstrating the val
 - `<footer>`: Contact information and social media links.
 
 ### **Directory structure:**
-byrne-investigations/
-├── assets/
-│   ├── CSS/
-│   │   └── styles.css      # Custom CSS styles
-│   └── images/
-│       └── fenderbender.jpeg  # Image used in the booking page
-├── index.html                # Home page
-├── booking.html              # Booking page
-├── testimonials.html         # Testimonials page
-└── README.md                 # Project README
+<img src = 
 
 ## contributing 
 We welcome contributions to improve the website. Please follow these steps:
