@@ -326,19 +326,6 @@ Testing is critical to ensure the website functions correctly across different s
  - Screen Readers: To test accessibility.
  - Validator Tools: To ensure HTML and CSS comply with standards (e.g., W3C Validator).
 
-### Finished Site Screenshots
-Add screenshots of the finished site below to visually showcase the final look of each page.
-
-## Home Page:
-<img src = assets/images/index.html.png>
- 
-## Booking Page:
-<img src = assets/images/bookings.png >
-
-## Testimonials Page:
-<img src = assets/images/testimonials.png>
-
-
 HTML for structure.
 CSS for styling and layout.
 JavaScript for interactive navigation.
@@ -358,6 +345,19 @@ CSS for layout and styling.
 JavaScript for any potential future interactive elements.
 Font Awesome for icons.
 Together, these technologies helped build a responsive, accessible, and user-friendly website for Byrne Insurance Investigations.
+
+
+### Finished Site Screenshots
+Add screenshots of the finished site below to visually showcase the final look of each page.
+
+## Home Page:
+<img src = assets/images/index.html.png>
+ 
+## Booking Page:
+<img src = assets/images/bookings.png >
+
+## Testimonials Page:
+<img src = assets/images/testimonials.png>
 
 ### Credits
 This project was made possible through the contributions and support of various individuals and resources:
