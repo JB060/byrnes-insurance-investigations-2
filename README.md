@@ -330,7 +330,7 @@ Testing is critical to ensure the website functions correctly across different s
 Add screenshots of the finished site below to visually showcase the final look of each page.
 
 Home Page:
-
+<img src = assets/images/index.html.png>
 Booking Page:
 
 Testimonials Page:
