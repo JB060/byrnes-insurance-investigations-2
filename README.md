@@ -334,7 +334,7 @@ Add screenshots of the finished site below to visually showcase the final look o
 ## Booking Page:
 <img src = assets/images/bookings.png >
 ## Testimonials Page:
-<img src = assets/images/index.html.png>
+<img src = assets/images/testimonials .png>
 
 
 HTML for structure.
