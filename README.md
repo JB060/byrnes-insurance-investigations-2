@@ -252,6 +252,90 @@ Ensure you have the following:
 - Breakdown by Page:
 - index.html:
 
+### Deployment
+## GitHub Pages Deployment
+Push Code to GitHub: Ensure all changes are committed and pushed to the main branch of the repository.
+
+
+1. Follow these steps to deploy the site on GitHub Pages:
+   -git add .
+    git commit -m "Prepare for deployment"
+    git push origin main
+   
+2. Set Up GitHub Pages:
+ - Go to the repository on GitHub.
+ - Navigate to Settings > Pages.
+ - In the Build and deployment section, select Deploy from a branch.
+ - Choose the main branch and /root folder for deployment.
+
+3. Verify Deployment:
+ - Wait a few minutes for GitHub Pages to deploy the site.
+ - Visit the live site URL (e.g., https://yourusername.github.io/byrne-investigations/) to confirm the deployment.
+
+### Updating the Site:
+1. Make Changes Locally: Modify the code as needed.
+2. Commit and Push: Commit changes and push to the main branch.
+3. GitHub Pages Auto-Deploy: GitHub Pages will automatically redeploy the site with the latest changes.
+
+### Rollback
+## To roll back to a previous version:
+ - Revert to a previous commit in the repository and push the changes.
+ - GitHub Pages will redeploy the reverted version.
+
+### Manual Testing
+## Test Class
+Testing is critical to ensure the website functions correctly across different scenarios. Here are the manual test cases performed:
+
+1. Navigation Links:
+   - Objective: Verify all navigation links work correctly.
+   - Steps:
+      - Click on each navigation link (Home, Booking, Testimonials).
+      - Confirm that each link directs to the correct page.
+   - Expected Result: Each navigation link should lead to the respective page without errors.
+
+2. ## Form Submission (Booking Page):
+ - Objective: Ensure the booking form submits correctly.
+ - Steps:
+   - Fill out the form fields with valid data.
+   - Click the "Submit" button.
+ - Expected Result: The form should be submitted successfully and show a confirmation message or redirect.
+
+3. ## Responsive Design:
+  - Objective: Confirm the site layout adapts to different screen sizes.
+  - Steps:
+    - Resize the browser window or use device simulation in developer tools.
+    - Check the layout and functionality on desktop, tablet, and mobile views.
+  - Expected Result: The layout should be responsive and elements should be well-aligned on all screen sizes.
+
+4. ## Content Accessibility:
+
+ - Objective: Ensure all content is accessible.
+ - Steps:
+   - Verify alt text for images.
+   - Use a screen reader to navigate through the website.
+ - Expected Result: All images should have alt text and the screen reader should provide meaningful descriptions.
+
+5. ## Link Validation:
+
+ - Objective: Ensure all external and internal links are functional.
+ - Steps:
+   - Click on each link (social media, internal links).
+   - Confirm that the link opens the correct destination.
+ - Expected Result: Links should navigate to the correct destination or open in a new tab as expected.
+
+7. Image Display:
+
+ - Objective: Verify all images load correctly.
+ - Steps:
+  - Load each page and observe the images.
+- Expected Result: All images should be displayed correctly without broken links.
+
+### Tools Used for Testing
+ - Browser Developer Tools: For inspecting elements and testing responsive design.
+ - Screen Readers: To test accessibility.
+ - Validator Tools: To ensure HTML and CSS comply with standards (e.g., W3C Validator).
+
+
 HTML for structure.
 CSS for styling and layout.
 JavaScript for interactive navigation.
@@ -270,17 +354,17 @@ HTML for testimonials structure.
 CSS for layout and styling.
 JavaScript for any potential future interactive elements.
 Font Awesome for icons.
-These technologies together helped build a responsive, accessible, and user-friendly website for Byrne Insurance Investigations.
+Together, these technologies helped build a responsive, accessible, and user-friendly website for Byrne Insurance Investigations.
 
 ### Credits
 This project was made possible through the contributions and support of various individuals and resources:
 
 - Marcel (Mentor)
 
-  - For providing invaluable guidance, feedback, and support throughout the development process.
+  - To provide invaluable guidance, feedback, and support throughout the development process.
     
 - Font Awesome
-  - For providing icons used across the site.
+  - To provide icons used across the site.
     
 - Google Fonts
   - For the typography used in the project.
