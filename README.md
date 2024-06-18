@@ -329,11 +329,12 @@ Testing is critical to ensure the website functions correctly across different s
 ### Finished Site Screenshots
 Add screenshots of the finished site below to visually showcase the final look of each page.
 
-Home Page:
+## Home Page:
 <img src = assets/images/index.html.png>
-Booking Page:
-
-Testimonials Page:
+## Booking Page:
+<img src = >
+## Testimonials Page:
+<img src = assets/images/index.html.png>
 
 
 HTML for structure.
