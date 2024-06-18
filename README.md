@@ -86,7 +86,7 @@ The testimonials page showcases feedback from our clients, demonstrating the val
 - `<footer>`: Contact information and social media links.
 
 ### **Directory structure:**
-<img src = 
+<img src = assets/images/DOM-configuration.png>
 
 ## contributing 
 We welcome contributions to improve the website. Please follow these steps:
