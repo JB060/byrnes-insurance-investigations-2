@@ -5,7 +5,7 @@
 
 <p>Welcome to the Byrne Insurance Investigations website repository. This project includes three main web pages: Home, Booking, and Testimonials. The website serves as a platform for clients to learn about our services, book investigations, and read testimonials.</p>
 
-## Table of Contents
+# Table of Contents
 
 - [Byrne Insurance Investigations Website](#byrne-insurance-investigations-website)
   - [Table of Contents](#table-of-contents)
@@ -85,7 +85,7 @@ The testimonials page showcases feedback from our clients, demonstrating the val
 - `<main>`: Testimonials section.
 - `<footer>`: Contact information and social media links.
 
-### **Directory structure:**
+# **Directory structure:**
 <img src = assets/images/DOM-configuration.png>
 
 ## contributing 
@@ -98,7 +98,7 @@ We welcome contributions to improve the website. Please follow these steps:
 5. Push to the branch (git push origin feature-branch).
 6. Open a Pull Request.
 
-### bugs squashed 
+# bugs squashed 
 Navigation Menu Inconsistencies:
 - Bug: The active link style wasn't properly applied across different pages.
 - Fix: Ensured the class="active" was correctly set for the current page in each navigation menu.
@@ -180,20 +180,20 @@ By addressing these bugs, the website now offers a more consistent, responsive, 
 
 ## Getting Started
 
-### Prerequisites
+# Prerequisites
 
 Ensure you have the following:
 - A web browser (e.g., Chrome, Firefox, Edge).
 - Basic understanding of HTML and CSS.
 
-### Installation
+# Installation
 
 1. **Clone the Repository:**
 
    ```bash
    git clone https://github.com/yourusername/byrne-investigations.git
 
-### Technologies Used in the project
+# Technologies Used in the project
    
 ## HTML
 -Used to structure the content of the website.
@@ -243,7 +243,7 @@ Ensure you have the following:
 - Breakdown by Page:
 - index.html:
 
-### Deployment
+# Deployment
 ## GitHub Pages Deployment
 Push Code to GitHub: Ensure all changes are committed and pushed to the main branch of the repository.
 
@@ -263,17 +263,17 @@ Push Code to GitHub: Ensure all changes are committed and pushed to the main bra
  - Wait a few minutes for GitHub Pages to deploy the site.
  - Visit the live site URL (e.g., https://yourusername.github.io/byrne-investigations/) to confirm the deployment.
 
-### Updating the Site:
+# Updating the Site:
 1. Make Changes Locally: Modify the code as needed.
 2. Commit and Push: Commit changes and push to the main branch.
 3. GitHub Pages Auto-Deploy: GitHub Pages will automatically redeploy the site with the latest changes.
 
-### Rollback
+# Rollback
 ## To roll back to a previous version:
  - Revert to a previous commit in the repository and push the changes.
  - GitHub Pages will redeploy the reverted version.
 
-### Manual Testing
+# Manual Testing
 ## Test Class
 Testing is critical to ensure the website functions correctly across different scenarios. Here are the manual test cases performed:
 
@@ -321,7 +321,7 @@ Testing is critical to ensure the website functions correctly across different s
   - Load each page and observe the images.
 - Expected Result: All images should be displayed correctly without broken links.
 
-### Tools Used for Testing
+# Tools Used for Testing
  - Browser Developer Tools: For inspecting elements and testing responsive design.
  - Screen Readers: To test accessibility.
  - Validator Tools: To ensure HTML and CSS comply with standards (e.g., W3C Validator).
@@ -347,7 +347,7 @@ Font Awesome for icons.
 Together, these technologies helped build a responsive, accessible, and user-friendly website for Byrne Insurance Investigations.
 
 
-### Finished Site Screenshots
+# Finished Site Screenshots
 Add screenshots of the finished site below to visually showcase the final look of each page.
 
 ## Home Page:
@@ -359,7 +359,7 @@ Add screenshots of the finished site below to visually showcase the final look o
 ## Testimonials Page:
 <img src = assets/images/testimonials.png>
 
-### Credits
+# Credits
 This project was made possible through the contributions and support of various individuals and resources:
 
 - Marcel (Mentor)
