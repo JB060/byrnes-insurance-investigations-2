@@ -8,7 +8,6 @@
 # Table of Contents
 
 - [Byrne Insurance Investigations Website](#byrne-insurance-investigations-website)
-  - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Pages and Features](#pages-and-features)
     - [1. Home Page (`index.html`)](#1-home-page-indexhtml)
