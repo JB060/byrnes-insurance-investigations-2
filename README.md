@@ -53,9 +53,14 @@ The home page introduces Byrne Insurance Investigations, highlighting our expert
   <p>The header is a description of our website.</p>
 
 **HTML Structure:**
-- `<header>`: Logo and navigation menu.
+- `<header>`: Logo and navigation menu:
+  ![header](assets/images/header.PNG)
+  <p>The header is a description of our website.</p>
 - `<main>`: Introduction section with text content.
-- `<footer>`: Contact information and social media links.
+- `<footer>`: Contact information and social media links:
+  ![footer](assets/images/footer.PNG)
+  <p> The footer contains all our social media outlets to give customers more diversity in our company</p>
+  
 
 ### 2. Booking Page (`booking.html`)
 
