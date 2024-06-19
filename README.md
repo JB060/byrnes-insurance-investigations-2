@@ -77,7 +77,7 @@ The form used to describe the accident gives us an idea of the customer's needs.
 ### 3. Testimonials Page (`testimonials.html`)
 **Description:**
 The testimonials page showcases feedback from our clients, demonstrating the value and effectiveness of our services.
-[testimonials](assets/images/testimonials2.PNG)
+![testimonials](assets/images/testimonials2.PNG)
 These give our customers an idea of the skills and services we provide to our past customers.  
 
 **Key Features:**
