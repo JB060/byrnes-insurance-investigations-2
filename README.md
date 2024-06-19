@@ -49,8 +49,6 @@ The home page introduces Byrne Insurance Investigations, highlighting our expert
 **Key Features:**
 - Welcome message with a brief description of our services.
 - Centralized heading with a horizontal line for visual separation.
-  ![header](assets/images/header.PNG)
-  <p>The header is a description of our website.</p>
 
 **HTML Structure:**
 - `<header>`: Logo and navigation menu:
