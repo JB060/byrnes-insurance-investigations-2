@@ -249,9 +249,9 @@ Push Code to GitHub: Ensure all changes are committed and pushed to the main bra
 
 
 1. Follow these steps to deploy the site on GitHub Pages:
-   -git add .
-    git commit -m "Prepare for deployment"
-    git push origin main
+  - git add .
+  - git commit -m "Prepare for deployment"
+  - git push origin main
    
 2. Set Up GitHub Pages:
  - Go to the repository on GitHub.
@@ -351,7 +351,8 @@ Together, these technologies helped build a responsive, accessible, and user-fri
 Add screenshots of the finished site below to visually showcase the final look of each page.
 
 # Home Page:
-<img src = assets/images/index.html.png>
+
+[home page](./assets/images/index.html.png)
  
 # Booking Page:
 <img src = assets/images/bookings.png >
