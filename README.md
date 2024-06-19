@@ -86,7 +86,7 @@ The testimonials page showcases feedback from our clients, demonstrating the val
 - `<footer>`: Contact information and social media links.
 
 # **Directory structure:**
-<img src = assets/images/DOM-configuration.png>
+<img src = assets/images/dom-configuration.png>
 
 ## contributing 
 We welcome contributions to improve the website. Please follow these steps:
@@ -351,14 +351,14 @@ Together, these technologies helped build a responsive, accessible, and user-fri
 Add screenshots of the finished site below to visually showcase the final look of each page.
 
 # Home Page:
-
-[home page](./assets/images/index.html.png)
+![home page](./assets/images/index.png)
  
 # Booking Page:
-<img src = assets/images/bookings.png >
+![Booking Page](./assets/images/bookings.png)
 
 # Testimonials Page:
-<img src = assets/images/testimonials.png>
+![Testimonials Page](./assets/images/testimonials.png)
+
 
 # Credits
 This project was made possible through the contributions and support of various individuals and resources:
