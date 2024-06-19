@@ -49,7 +49,8 @@ The home page introduces Byrne Insurance Investigations, highlighting our expert
 **Key Features:**
 - Welcome message with a brief description of our services.
 - Centralized heading with a horizontal line for visual separation.
-  [header]()
+  [header](assets/images/header.PNG)
+  The header is a description of our website.
 
 **HTML Structure:**
 - `<header>`: Logo and navigation menu.
@@ -60,6 +61,8 @@ The home page introduces Byrne Insurance Investigations, highlighting our expert
 
 **Description:**
 The booking page allows clients to schedule an investigation by filling out a form with their details and preferences.
+[header](assets/images/form.PNG)
+The form used to describe the accident gives us an idea of the customer's needs.
 
 **Key Features:**
 - Centralized heading with a horizontal line for visual separation.
@@ -72,9 +75,10 @@ The booking page allows clients to schedule an investigation by filling out a fo
 - `<footer>`: Contact information and social media links.
 
 ### 3. Testimonials Page (`testimonials.html`)
-
 **Description:**
 The testimonials page showcases feedback from our clients, demonstrating the value and effectiveness of our services.
+[header](assets/images/testimonials1.PNG)
+These give our customers an idea of the skills and services we provide to our past customers.  
 
 **Key Features:**
 - Centralized heading with a horizontal line for visual separation.
