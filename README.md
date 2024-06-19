@@ -44,13 +44,13 @@ The Byrne Insurance Investigations website provides information on our insurance
 ### 1. Home Page (`index.html`)
 
 **Description:**
-The home page introduces Byrne Insurance Investigations, highlighting our expertise in motor, public, and employer's liability claims.
+The home page introduces Byrne Insurance Investigations, highlighting our expertise in motor, public, and employer liability claims.
 
 **Key Features:**
 - Welcome message with a brief description of our services.
 - Centralized heading with a horizontal line for visual separation.
   ![header](assets/images/header.PNG)
-  The header is a description of our website.
+  <p>The header is a description of our website.</p>
 
 **HTML Structure:**
 - `<header>`: Logo and navigation menu.
@@ -62,7 +62,7 @@ The home page introduces Byrne Insurance Investigations, highlighting our expert
 **Description:**
 The booking page allows clients to schedule an investigation by filling out a form with their details and preferences.
 ![Form](assets/images/form.PNG)
-The form used to describe the accident gives us an idea of the customer's needs.
+<p>The form used to describe the accident gives us an idea of the customer's needs.</p>
 
 **Key Features:**
 - Centralized heading with a horizontal line for visual separation.
